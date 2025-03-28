@@ -1,0 +1,43 @@
+/* Home.css */
+.home {
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background: linear-gradient(135deg, #1a1a1a 0%, #333 100%); /* Dark gradient background */
+    color: #fff; /* White text to match navbar */
+    padding: 80px 10%; /* Top padding to avoid overlap with fixed navbar, 10% sides */
+    text-align: center;
+  }
+  
+  .home h1 {
+    font-size: 48px; /* Large, bold heading */
+    font-weight: 700;
+    margin-bottom: 20px; /* Space below heading */
+    text-transform: uppercase; /* Matches navbar logo style */
+    letter-spacing: 2px; /* Matches navbar logo spacing */
+  }
+  
+  .home p {
+    font-size: 18px; /* Readable paragraph size */
+    font-weight: 400;
+    max-width: 600px; /* Limits paragraph width for readability */
+    line-height: 1.6; /* Improved readability */
+    opacity: 0.9; /* Slightly faded for subtle contrast */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .home {
+      padding: 60px 5%; /* Less padding on smaller screens */
+    }
+  
+    .home h1 {
+      font-size: 36px; /* Smaller heading on mobile */
+    }
+  
+    .home p {
+      font-size: 16px; /* Slightly smaller text */
+    }
+  }
