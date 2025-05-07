@@ -1,0 +1,28 @@
+/* Define the font-face for DIN Next Pro */
+@font-face {
+    font-family: 'DIN Next Pro';
+    src: url('./assets/fonts/DINNextPro-Regular.woff2') format('woff2'),
+         url('./assets/fonts/DINNextPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'DIN Next Pro';
+    src: url('./assets/fonts/DINNextPro-Bold.woff2') format('woff2'),
+         url('./assets/fonts/DINNextPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  /* Apply DIN Next Pro globally */
+  body {
+    font-family: 'DIN Next Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Optional: Ensure all elements inherit the font */
+  * {
+    font-family: inherit;
+  }

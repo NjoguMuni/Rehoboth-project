@@ -8,7 +8,7 @@
 }
 
 body{
-  background: url('./assets/thumb.jpg') no-repeat;
+  /*background: url('./assets/thumb.jpg') no-repeat;*/ /*This is the background image*/
   background-size: cover;
   background-position: center;
   min-height: 100vh;  
